@@ -6,6 +6,7 @@
 This project predicts flight ticket prices for Indian domestic flights (March–June 2019) using Machine Learning.
 We preprocess the dataset, engineer features, and train regression models to estimate flight prices based on various factors like airline, source, destination, duration, and stops.
 
+---
 ### 🎯 Goal
 
 Build a machine learning model to predict flight prices.
@@ -14,6 +15,7 @@ Perform feature engineering & preprocessing on categorical and time-based data.
 
 Evaluate the model using MAE, RMSE, and R² Score.
 
+---
 #### 📊 Dataset
 
 The dataset contains details of domestic flights:
@@ -32,8 +34,9 @@ Total_Stops – Number of stops
 
 Price – Ticket price (Target variable)
 
-🔗 (Add dataset link here if public, else mention it's provided for the competition/class assignment.)
+🔗 Link: https://tinyurl.com/Aero-Data
 
+---
 #### ⚙️ Tech Stack
 
 Python 3
@@ -77,7 +80,8 @@ RMSE: 1359.65
 
 R² Score: 0.91 ✅
 
-🔮 Key Insights
+---
+**🔮 Key Insights**
 
 Jet Airways Business has the highest average ticket price in the dataset.
 
