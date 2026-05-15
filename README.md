@@ -47,6 +47,7 @@ Price – Ticket price (Target variable)
 
 - scikit-learn – ML models, pipelines, hyperparameter tuning
 
+---
 **🛠️ Steps Implemented**
 1. Data Preprocessing
 
@@ -83,6 +84,6 @@ Price – Ticket price (Target variable)
 ---
 **🔮 Key Insights**
 
-Jet Airways Business has the highest average ticket price in the dataset.
+- Jet Airways Business has the highest average ticket price in the dataset.
 
-Price depends heavily on airline, duration, and number of stops.
+- Price depends heavily on airline, duration, and number of stops.
