@@ -1,4 +1,5 @@
-# AeroDataCompetition
+# AERO DATA: Data Science Competition
+- Hosted by: Analytical Arena – Data Science Club
 
 ### ✈️ Flight Price Prediction
 #### 📌 Project Overview
