@@ -39,46 +39,46 @@ Price – Ticket price (Target variable)
 ---
 #### ⚙️ Tech Stack
 
-Python 3
+- Python 3
 
-pandas, numpy – Data preprocessing
+- pandas, numpy – Data preprocessing
 
-matplotlib, seaborn – Data visualization
+- matplotlib, seaborn – Data visualization
 
-scikit-learn – ML models, pipelines, hyperparameter tuning
+- scikit-learn – ML models, pipelines, hyperparameter tuning
 
-🛠️ Steps Implemented
+**🛠️ Steps Implemented**
 1. Data Preprocessing
 
-Converted Date_of_Journey, Dep_Time, Arrival_Time into day, month, hour, minute.
+   - Converted Date_of_Journey, Dep_Time, Arrival_Time into day, month, hour, minute.
 
-Encoded categorical variables (Airline, Source, Destination) using OneHotEncoder.
+   - Encoded categorical variables (Airline, Source, Destination) using OneHotEncoder.
 
-Dropped irrelevant columns (Route, Additional_Info).
+   - Dropped irrelevant columns (Route, Additional_Info).
 
 2. Feature Engineering
 
-Extracted time features.
+   - Extracted time features.
 
-Converted flight duration into minutes.
+   - Converted flight duration into minutes.
 
-Handled categorical & numerical features using ColumnTransformer.
+   - Handled categorical & numerical features using ColumnTransformer.
 
-3. Model Training
+**3. Model Training**
 
-Used RandomForestRegressor as baseline.
+   - Used RandomForestRegressor as baseline.
 
-Applied GridSearchCV for hyperparameter tuning.
+   - Applied GridSearchCV for hyperparameter tuning.
 
-4. Model Evaluation
+**4. Model Evaluation**
 
-Final model metrics:
+   - Final model metrics:
 
-MAE: 587.56
+   - MAE: 587.56
 
-RMSE: 1359.65
+   - RMSE: 1359.65
 
-R² Score: 0.91 ✅
+   - R² Score: 0.91 ✅
 
 ---
 **🔮 Key Insights**
