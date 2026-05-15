@@ -64,13 +64,13 @@ Price – Ticket price (Target variable)
 
    - Handled categorical & numerical features using ColumnTransformer.
 
-**3. Model Training**
+3. Model Training
 
    - Used RandomForestRegressor as baseline.
 
    - Applied GridSearchCV for hyperparameter tuning.
 
-**4. Model Evaluation**
+5. Model Evaluation
 
    - Final model metrics:
 
